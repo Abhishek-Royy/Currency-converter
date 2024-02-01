@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter | Indian App</title>
+    <link rel="icon" href=https://gallery.yopriceville.com/var/albums/Free-Clipart-Pictures/Money.PNG/Money_Bag_PNG_Clipart_Picture.png?m=1434276666>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="main">
+        <div class="main-box">
+            <h1>CURRENCY CONVERTER</h1>
+            <div class="box">
+                <form action="">
+                    <div class="input-box">
+                        <label for="amount">Enter Amount: </label>
+                        <input type="text" id="amount" placeholder="amount..." required>
+                    </div>
+
+                    <div class="country-opt">
+                        <div class="opt from">
+                            <label for="from">From: </label>
+                            <img src="https://i.gifer.com/ZgRn.gif" alt="flag">
+                        <select name="" id="from" required>
+                           <!-- option come from backend -->
+                           <option value="none" selected>--select--</option>
+                        </select>
+                        </div>
+                        <div class="opt to">
+                            <label for="to">To: </label>
+                            <img src="https://i.gifer.com/ZgRn.gif" alt="flag">
+                        <select name="" id="to" >
+                             <!-- option come from backend -->
+                             <option value="none" selected>--select--</option>
+                        </select>
+                        </div>
+                        
+                    </div>
+
+                    <div class="output">
+                        <p id="message" class="hide"></p>
+                    </div>
+                    <button>Convert</button>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <img src="https://media.tenor.com/Nmw0aNyBDQcAAAAj/hauzozo-hau.gif" alt="img">
+            <p>Design & Develop by- Abhishek Roy</p>
+        </footer>
+    </div>
+
+        <script src="country.js"></script>
+        <script src="script.js"></script>
+</body>
+</html>
+
